@@ -1,0 +1,5 @@
+
+# Security fixes for transitive dependencies whose parents still allow affected releases.
+overrides:
+  "esbuild@<0.28.1": "^0.28.1"
+  "minimatch@>=7.0.0 <11.0.1": "^11.0.1"
